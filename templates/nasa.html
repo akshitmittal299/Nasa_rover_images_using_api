@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mars Rover Photos</title>
+</head>
+<body>
+    <div id="photo-container">
+        {% for url in image_urls %}
+            <img src="{{ url }}" alt="Mars Rover Photo">
+        {% endfor %}
+    </div>
+</body>
+</html>
